@@ -1,9 +1,9 @@
 <div align="center">
-  <a href="https://Aniplaynow.live" target="_blank">
+  <a href="https://anime.marcus7i.net" target="_blank">
     <img src="https://github.com/Noname968/airin/blob/c39875dc6e1bc2db9d8371574a9ab3ed95ff3b93/public/icon-512x512.png" alt="Logo" width="140" height="140">
   </a>
 
-  <h2 align="center">Airin</h3>
+  <h2 align="center">Anywave</h3>
 
   <p align="center">
     An open-source Anime streaming site built with Nextjs 14
@@ -48,7 +48,7 @@ Enjoy ad-free streaming and seamless progress tracking with AniList integration,
     - [ ] Mangadex
     - [ ] And some more
 
-See the [open issues](https://github.com/Noname968/airin/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/MarcUs7i/anywave/issues) for a full list of proposed features (and known issues).
 
 
 ## Environment Variables
@@ -88,12 +88,12 @@ MONGODB_URI="Your Mongodb connection String"
 
 Clone the project
 ```bash
-  git clone https://github.com/Noname968/airin.git
+  git clone https://github.com/MarcUs7i/anywave.git
 ```
 
 Go to the project directory
 ```bash
-  cd airin
+  cd anywave
 ```
 
 Install dependencies
@@ -116,7 +116,7 @@ Move the .env file somewhere it won't bother you (optional)
 Run the image:
 ```bash
 docker run -d -it \
---name airin \
+--name anywave \
 -p 3000:3000 \
 -v <path_of_env_file>/.env:/usr/src/app/.env \
 ghcr.io/Noname968/airin:latest
@@ -127,7 +127,7 @@ For Docker Compose:
 version: "3.3"
 services:
   airin:
-    container_name: airin
+    container_name: anywave
     ports:
       - 3000:3000
     volumes:
@@ -136,7 +136,7 @@ services:
 ```
 
 For at full stack deploy (db, redis, consumet api)
-See [docker-compose.yml](https://github.com/Noname968/airin/blob/master/docker-compose.yml)
+See [docker-compose.yml](https://github.com/MarcUs7i/anywave/blob/master/docker-compose.yml)
 
 Access Airin at ``http://localhost:3000``
 
@@ -149,22 +149,17 @@ Access Airin at ``http://localhost:3000``
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated** - **[Luckyhv](https://github.com/Noname968/airin)**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <!-- CONTACT -->
 ## Contact
 
-Project Link: [https://github.com/Noname968/airin](https://github.com/Noname968/airin)
+Project Link: [https://github.com/MarcUs7i/anywave](https://github.com/MarcUs7i/anywave)
 
-Discord Server: [https://discord.gg/QnbFaudJNf](https://discord.gg/QnbFaudJNf)
+Discord Server: [https://discord.gg/s7ZUHYDmbD](https://discord.gg/s7ZUHYDmbD)
 
-For any queries you can DM me on Discord `harsha9680`.
+For any queries you can DM me on Discord `MarcUs7i`.
+
+**This is a fork!** If you have problems contact [Luckyhv/Noname968](https://github.com/Noname968/airin)
