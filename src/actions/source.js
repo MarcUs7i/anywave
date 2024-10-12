@@ -38,14 +38,19 @@ export async function getZoroSources(id, provider, episodeid, epnum, subtype) {
 }
 export async function getAnimeSources(id, provider, epid, epnum, subtype) {
     try {
-        if (provider === "gogoanime") {
-            const data = await getGogoSources(epid);
-            return data;
-        }
+        //set zoro as the main server
         if (provider === "zoro") {
             const data = await getZoroSources(id, provider, epid, epnum, subtype)
             return data;
         }
+        if (provider === "gogoanime") {
+            const data = await getGogoSources(epid);
+            return data;
+        }
+        /*if (provider === "zoro") {
+            const data = await getZoroSources(id, provider, epid, epnum, subtype)
+            return data;
+        }*/
     } catch (error) {
         console.log(error);
         return null;
