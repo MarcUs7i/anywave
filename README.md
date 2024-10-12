@@ -119,7 +119,7 @@ docker run -d -it \
 --name anywave \
 -p 3000:3000 \
 -v <path_of_env_file>/.env:/usr/src/app/.env \
-ghcr.io/Noname968/airin:latest
+ghcr.io/marcus7i/anywave:latest
 ```
 
 For Docker Compose:
@@ -132,7 +132,7 @@ services:
       - 3000:3000
     volumes:
       - <path_of_env_file>/.env:/usr/src/app/.env
-    image: ghcr.io/Noname968/airin:latest
+    image: ghcr.io/marcus7i/anywave:latest
 ```
 
 For at full stack deploy (db, redis, consumet api)
