@@ -138,7 +138,7 @@ services:
 For at full stack deploy (db, redis, consumet api)
 See [docker-compose.yml](https://github.com/MarcUs7i/anywave/blob/master/docker-compose.yml)
 
-Access Airin at ``http://localhost:3000``
+Access Anywave at ``http://localhost:3000``
 
 ## Self-Hosting Notice
 

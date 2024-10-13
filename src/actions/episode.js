@@ -61,33 +61,6 @@ const fetchAndCacheData = async (id, meta, redis, cacheTime, refresh) => {
   }
 
   if (mappings) {
-    if (mappings.gogoanime && Object.keys(mappings.gogoanime).length >= 1) {
-      // Fetch sub episodes if available
-      if (
-        mappings?.gogoanime?.uncensored ||
-        mappings?.gogoanime?.sub ||
-        mappings?.gogoanime?.tv
-      ) {
-        subEpisodes = await fetchGogoEpisodes(
-          mappings?.gogoanime?.uncensored ||
-            mappings.gogoanime.sub ||
-            mappings?.gogoanime?.tv
-        );
-      }
-
-      // Fetch dub episodes if available
-      if (mappings?.gogoanime?.dub) {
-        dubEpisodes = await fetchGogoEpisodes(mappings?.gogoanime?.dub);
-      }
-
-      if (subEpisodes?.length > 0 || dubEpisodes?.length > 0) {
-        allepisodes.push({
-          episodes: { sub: subEpisodes, dub: dubEpisodes },
-          providerId: "gogoanime",
-          consumet: true,
-        });
-      }
-    }
     if (mappings?.zoro && Object.keys(mappings.zoro).length >= 1) {
       let subEpisodes = [];
 
@@ -112,6 +85,33 @@ const fetchAndCacheData = async (id, meta, redis, cacheTime, refresh) => {
         allepisodes.push({
           episodes: transformedEpisodes,
           providerId: "zoro",
+        });
+      }
+    }
+    if (mappings.gogoanime && Object.keys(mappings.gogoanime).length >= 1) {
+      // Fetch sub episodes if available
+      if (
+        mappings?.gogoanime?.uncensored ||
+        mappings?.gogoanime?.sub ||
+        mappings?.gogoanime?.tv
+      ) {
+        subEpisodes = await fetchGogoEpisodes(
+          mappings?.gogoanime?.uncensored ||
+            mappings.gogoanime.sub ||
+            mappings?.gogoanime?.tv
+        );
+      }
+
+      // Fetch dub episodes if available
+      if (mappings?.gogoanime?.dub) {
+        dubEpisodes = await fetchGogoEpisodes(mappings?.gogoanime?.dub);
+      }
+
+      if (subEpisodes?.length > 0 || dubEpisodes?.length > 0) {
+        allepisodes.push({
+          episodes: { sub: subEpisodes, dub: dubEpisodes },
+          providerId: "gogoanime",
+          consumet: true,
         });
       }
     }

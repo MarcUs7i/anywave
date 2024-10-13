@@ -74,7 +74,7 @@ function Footer() {
                                         <Link href="/dmca" className="hover:text-white"> DMCA</Link>
                                     </li>
                                     <li>
-                                        <Link href="https://ko-fi.com/luckyhv" target='_blank' className="hover:text-white !font-semibold !text-[0.8rem]">Donate to it's creator</Link>
+                                        <Link href="https://ko-fi.com/luckyhv" target='_blank' className="hover:text-white !font-semibold !text-[0.8rem]">Donate to Luckyhv</Link>
                                     </li>
                                 </ul>
                             </div>
