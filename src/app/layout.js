@@ -48,7 +48,7 @@ export const metadata = {
     'latest dubbed anime',
     'subbed anime streaming',
     'dubbed anime streaming',
-    'Anywave latest anime',
+    'Airin latest anime',
   ],
   manifest: "/manifest.json",
   appleWebApp: {
