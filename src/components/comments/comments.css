@@ -1,0 +1,13 @@
+#disqus_thread {
+    color-scheme: none;
+  }
+  
+  #disqus_thread a {
+    color: #4D148C;
+    }
+
+
+    iframe[src*="ads-iframe"] {
+        display: none;
+    }
+    
