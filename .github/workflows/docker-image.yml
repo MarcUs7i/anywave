@@ -9,7 +9,7 @@ env:
 
 jobs:
   build-and-push-image:
-    runs-on: self-hosted  # Changed from ubuntu-latest to self-hosted
+    runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
