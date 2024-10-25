@@ -1,49 +1,22 @@
 <div align="center">
-<a href="https://v1.1anime.one">
-  <img src="https://1anime.co/favicon.ico" alt="logo" width="180"/>
+<a href="https://anywave.marcus7i.net">
+  <img src="https://github.com/MarcUs7i/anywave/blob/main/public/icon-512x512.png?raw=true" alt="Logo" width="140" height="140">
 </a>
 </div>
 
 <h1 align="center">
-  <a href="https://v1.1anime.one">1Anime V1</a>
+  <a href="https://anywave.marcus7i.net">Anywave</a>
 </h1>
 <h2 align="center"><a href="https://github.com/Noname968/airin">A permitted and official fork of Airin</a></h2>
-
-> [!IMPORTANT]  
->  
-> As of August 24 2024, this repository is no longer maintained and will not receive any further updates or support from the author. If you choose to use the code in this repository, please do so at your own risk.
-> ### Important Points:
-> - **Don't use this code for commercial use**: Read the LICENSE for more.
-> - **No Updates**: There will be no further updates or improvements made to this repository.
-> - **No Support**: The author will not provide any support, fixes, or acknowledge any issues found in the code.
-> - **Use at your own Risk**: Any errors, bugs, or other issues that arise from using this code are your responsibility.
-> 
-> Thank you. 
-<br />
-
-<p align="center">
-
- <a href="https://github.com/1Anime/V1/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/1Anime/V1" alt="license"/>
-  </a>
-  <a href="https://github.com/1Anime/V1/fork">
-    <img src="https://img.shields.io/github/forks/1Anime/V1?style=social" alt="fork"/>
-  </a>
-  <a href="https://github.com/1Anime/V1">
-    <img src="https://img.shields.io/github/stars/1Anime/V1?style=social" alt="stars"/>
-  </a>
-  
-</p>
 
 <p align="center">
  <img src="https://github.com/1Anime/V1/blob/main/public/image.png?raw=true" alt="main">
 </p>
 
-> **Warning:** If you are not familiar with JavaScript or any other programming language related to this project, please learn it first before attempting to work on this project. **I won't help anyone who doesn't know how to do basic stuff.**
 
 ## Introduction
 
-<p><a href="https://v1.1anime.one">1Anime</a> is an anime streaming website made possible by the <a href="https://github.com/consumet">Consumet API</a> and <a href="https://anify.tv">Anify API</a>, built with <a href="https://github.com/vercel/next.js/">Next.js</a> and <a href="https://nextui.org/">Nextui</a>, It offers AniList integration with no ads or interruptions</p>
+<p><a href="https://anywave.marcus7i.net">Anywave</a> is an anime streaming website made possible by the <a href="https://github.com/consumet">Consumet API</a> and <a href="https://anify.tv">Anify API</a>, built with <a href="https://github.com/vercel/next.js/">Next.js</a> and <a href="https://nextui.org/">Nextui</a>, It offers AniList integration with no ads or interruptions</p>
 
 ## Features
 
@@ -71,7 +44,7 @@
 1. Clone this repository using :
 
 ```bash
-git clone https://github.com/1Anime/V1.git
+git clone https://github.com/MarcUs7i/anywave
 ```
 
 2. Install package using npm :
@@ -140,12 +113,3 @@ npm run build
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details.
 
 > This means that if you choose to use or host this site for your own purposes, you are also required to release the source code of any modifications or improvements you make to this project. This open-source ethos is central to the project's philosophy.
-
-## Contact
-[![Discord Banner](https://discord.com/api/guilds/1241662958082330714/widget.png?style=banner2)](https://discord.gg/7x8bKaY9eP)
-
-## Support This Project
-
-✨ [Star this project](https://github.com/1Anime/V1)
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/1anime)  
