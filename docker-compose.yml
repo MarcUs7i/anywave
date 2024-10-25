@@ -1,11 +1,11 @@
 version: "3.3"
 services:
   aniplay:
-    container_name: Aniplay
+    container_name: Anywave
     restart: always
     ports:
       - 3000:3000
-    image: ghcr.io/luckyhv/aniplay:latest
+    image: ghcr.io/marcus7i/anywave:latest
     links:
       - redis:redis
       - consumet:consumet
