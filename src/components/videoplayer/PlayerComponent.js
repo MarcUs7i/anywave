@@ -127,7 +127,7 @@ function PlayerComponent({ id, epId, provider, epNum, subdub, data, session, sav
           if (navigator.share) {
             await navigator.share({
               title: `Watch Now - ${data?.title?.english}`,
-               text: `Watch [${data?.title?.romaji}] and more on 1Anime. Join us for endless anime entertainment`,
+               text: `Watch [${data?.title?.romaji}] and more on Anywave. Join us for endless anime entertainment`,
               url: window.location.href,
             });
           } else {

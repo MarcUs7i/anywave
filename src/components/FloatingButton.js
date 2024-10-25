@@ -28,14 +28,11 @@ function FloatingButton({session}) {
                 <DropdownItem key="catalog" startContent={<CatalogIcon className={iconClasses} />}>
                     <Link href={`/anime/catalog`} className='w-full h-full block '>Explore</Link>
                 </DropdownItem>
-                <DropdownItem key="donate" startContent={<BanknotesIcon className={iconClasses} />}>
-                    <Link href={`https://ko-fi.com/1Anime`} className='w-full h-full block '>Support us/Donate</Link>
-                </DropdownItem>
                 <DropdownItem key="AIChat" startContent={<ChatBubbleOvalLeftEllipsisIcon className={iconClasses} />}>
-                    <Link href={`#`} className='w-full h-full block '>AI Chats (Coming Soon)</Link>
+                    <Link href={`https://ollama.marcus7i.net`} className='w-full h-full block '>AI Chats</Link>
                 </DropdownItem>
                 <DropdownItem key="chat" startContent={<ChatBubbleBottomCenterIcon className={iconClasses} />}>
-                    <Link href={`https://dsc.gg/1anime`} className='w-full h-full block '>Community/Discord</Link>
+                    <Link href={`https://discord.gg/s7ZUHYDmbD`} className='w-full h-full block '>Community/Discord</Link>
                 </DropdownItem>
                 <DropdownItem key="schedule" startContent={<ClockIcon className={iconClasses} />}>
                     <Link href={`/schedule`} className='w-full h-full block '>Schedule</Link>

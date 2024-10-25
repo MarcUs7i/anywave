@@ -49,7 +49,7 @@ const releaseLogs = [
         version: "Readying for REVAMP - v.1.9",
         changes: [
             "Join the new Waitlist for our BIGGEST update EVER.",
-            "Join our new discord: https://dsc.gg/1anime",
+            "Join our new discord: https://discord.gg/s7ZUHYDmbDe",
             "Report any bugs and request features in Feedback or Discord. It's FREE!",
             ],
         },
@@ -88,7 +88,7 @@ export default function Changelogs() {
                                         <div className="flex gap-3 items-center">
                                             {/* Discord Icon */}
                                             <Link
-                                                href="https://dsc.gg/1anime"
+                                                href="https://discord.gg/s7ZUHYDmbD"
                                                 target="_blank"
                                                 className="w-6 h-6 hover:opacity-75"
                                             >
@@ -105,7 +105,7 @@ export default function Changelogs() {
                                             </Link>
                                                 {/* Just a Check */}
                                                 <Link
-                                                href="https://1anime.co"
+                                                href="https://anywave.marcus7i.net"
                                                 target="_blank"
                                                 className="w-6 h-6 hover:opacity-75"
                                             >
@@ -120,7 +120,7 @@ export default function Changelogs() {
                                         <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
   <path fill-rule="evenodd" d="M18.458 3.11A1 1 0 0 1 19 4v16a1 1 0 0 1-1.581.814L12 16.944V7.056l5.419-3.87a1 1 0 0 1 1.039-.076ZM22 12c0 1.48-.804 2.773-2 3.465v-6.93c1.196.692 2 1.984 2 3.465ZM10 8H4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h6V8Zm0 9H5v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-3Z" clip-rule="evenodd"/>
 </svg>
-  Welcome to 1Anime, Here's the latest updates   </p>
+  Welcome to Anywave, Here's the latest updates   </p>
                                     </div>
                                     <div className="my-3 flex items-center justify-evenly flex-col">
                                         <p className="whitespace-nowrap font-medium mx-2 font-inter">

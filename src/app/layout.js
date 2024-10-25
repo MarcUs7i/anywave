@@ -17,12 +17,12 @@ import ThemeManager from './ThemeManager';
 const inter = Inter({ subsets: ['latin'] })
 const myfont = localFont({ src: "../static-fonts/archivo.ttf" })
 
-const APP_NAME = "1Anime"
-const APP_DEFAULT_TITLE = "1Anime - Watch Anime, Read Manga WITHOUT ADS for FREE!";
-const APP_DESCRIPTION = "Explore a vast collection of anime on 1Anime, your go-to destination for streaming the latest and classic anime series. Immerse yourself in captivating storylines, vibrant animation, and diverse genres. Discover a world of entertainment at your fingertips with , where every episode is an adventure.";
+const APP_NAME = "Anywave"
+const APP_DEFAULT_TITLE = "Anywave - Watch Anime, Read Manga WITHOUT ADS for FREE!";
+const APP_DESCRIPTION = "Explore a vast collection of anime on Anywave, your go-to destination for streaming the latest and classic anime series. Immerse yourself in captivating storylines, vibrant animation, and diverse genres. Discover a world of entertainment at your fingertips with , where every episode is an adventure.";
 
 export const metadata = {
-  metadataBase: new URL('https://1anime.co'),
+  metadataBase: new URL('https://anywave.marcus7i.net'),
   applicationName: APP_NAME,
   title: APP_DEFAULT_TITLE,
   description: APP_DESCRIPTION,
@@ -49,7 +49,7 @@ export const metadata = {
     'latest dubbed anime',
     'subbed anime streaming',
     'dubbed anime streaming',
-    '1Anime latest anime',
+    'Anywave latest anime',
   ],
   manifest: "/manifest.json",
   appleWebApp: {
@@ -110,8 +110,8 @@ export default async function RootLayout({ children }) {
             }}
           />
         <meta name="google-site-verification" content="9Cj5Gd0-OuGDtGb4HpRqNfBXy3FuFCcFNWSvTPOlTzE" />
-        <link rel="apple-touch-icon" sizes="180x180" href="https://1anime.co/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="192x192" href="https://1anime.co/android-chrome-192x192.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="https://anywave.marcus7i.net/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="https://anywave.marcus7i.net/android-chrome-192x192.png" />
         {/* <script src="https://kit.fontawesome.com/c189d5d7c5.js" crossOrigin="anonymous" async></script> */}
       </head>
       <body className={myfont.className}>

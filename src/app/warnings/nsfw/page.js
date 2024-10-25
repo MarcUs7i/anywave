@@ -13,7 +13,7 @@ function NSFWPage({ statusCode, reset }) {
      ,
        title: "Learn more why",
        desc: "Why did we remove NSFW Content?",
-       href:  "https://1anime.tawk.help/article/nsfw-policy"
+       href:  "https://discord.gg/s7ZUHYDmbD"
       },
         {
             icon:
@@ -31,7 +31,7 @@ function NSFWPage({ statusCode, reset }) {
                 </svg>,
             title: "Support",
             desc: "Contact Support or let us know about this error",
-            href: "https://1anime.tawk.help"
+            href: "https://discord.gg/s7ZUHYDmbD"
         }
     ]
 
