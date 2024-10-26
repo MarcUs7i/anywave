@@ -22,7 +22,7 @@ const APP_DEFAULT_TITLE = "Anywave - Watch Anime, Read Manga WITHOUT ADS for FRE
 const APP_DESCRIPTION = "Explore a vast collection of anime on Anywave, your go-to destination for streaming the latest and classic anime series. Immerse yourself in captivating storylines, vibrant animation, and diverse genres. Discover a world of entertainment at your fingertips with , where every episode is an adventure.";
 
 export const metadata = {
-  metadataBase: new URL('https://anywave.marcus7i.net'),
+  metadataBase: new URL('https://aniplaynow.live'),
   applicationName: APP_NAME,
   title: APP_DEFAULT_TITLE,
   description: APP_DESCRIPTION,
