@@ -35,10 +35,7 @@ function Footer() {
                     <div className="lg:flex lg:justify-between">
                         <div className="mb-6 lg:mb-0 flex flex-col lg:flex-row lg:items-center lg:gap-6">
                             <Link href="/" className="flex items-center w-fit">
-                                {/* <p className={`aniplay self-center text-3xl font-medium whitespace-nowrap dark:text-white`}>
-                                    ANIPLAY
-                                    </p> */}
-                                    <Image src='https://anywave.marcus7i.net/logo.svg' width={50} height={50} className="w-32 h-20 "/>
+                                <p class="Anywave self-center !text-4xl tracking-wider font-medium whitespace-nowrap dark:text-white">Anywave</p>
                             </Link>
                             <button className="bg-black text-white font-medium py-2 px-3 rounded-lg">
            🟡 Status: GGAnime API (Main Server) down
@@ -63,23 +60,17 @@ function Footer() {
                                     <li>
                                         <Link href="/anime/catalog?format=TV" className="hover:text-white"> TV Shows</Link>
                                     </li>
-                                    <li>
-                                        <Link disabled href="#" className="hover:text-white"> Manga (Unavailable)</Link>
-                                    </li>
                                 </ul>
                             </div>
                             <div>
                                 <ul className="font-semibold flex flex-col gap-2 lg:text-[0.85rem] text-[0.7rem] text-[#ffffffb2]">
-    <li>
+                                    <li>
                                         <Link href="https://discord.gg/s7ZUHYDmbD" target='_blank' className="hover:text-white !font-semibold !text-[0.8rem]">Donate</Link>
-                                      <li>
-                                    <li>
-                                        <Link href="/dmca" className="hover:text-white"> DMCA & Privacy Policy</Link>
-                                    </li>
-                                    </li>
-                                    <li>
-                                        <Link href="https://1anime.co/proxy" className="hover:text-white"> Proxy</Link>
-                                    </li>
+                                        <li>
+                                            <li>
+                                                <Link href="/dmca" className="hover:text-white"> DMCA & Privacy Policy</Link>
+                                            </li>
+                                        </li>
                                     </li>
                                 </ul>
                             </div>

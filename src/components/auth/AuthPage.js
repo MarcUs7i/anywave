@@ -38,7 +38,7 @@ function AuthPage() {
                         </svg>
                     </div>
                     <p className="py-2 font-medium">
-                        Enjoy Anime, Novels & Manga for FREE without ads. Sync with your favorite account providers like AniList                    </p>
+                        Enjoy Anime for FREE without ads. Sync with your favorite account providers like AniList                    </p>
                 </div>
                 <a href="/" className="inline-block w-full mt-3 py-2 px-3 text-center text-indigo-600 font-medium bg-white duration-150 hover:bg-gray-100 active:bg-gray-200 rounded-lg sm:w-auto sm:mt-0 sm:text-sm">
                     Use Anywave now!

@@ -34,14 +34,13 @@ function FloatingButton({session}) {
                 <DropdownItem key="chat" startContent={<ChatBubbleBottomCenterIcon className={iconClasses} />}>
                     <Link href={`https://discord.gg/s7ZUHYDmbD`} className='w-full h-full block '>Community/Discord</Link>
                 </DropdownItem>
+                {/*  Schedule Website is down
                 <DropdownItem key="schedule" startContent={<ClockIcon className={iconClasses} />}>
                     <Link href={`/schedule`} className='w-full h-full block '>Schedule</Link>
                 </DropdownItem>
+                */}
                 <DropdownItem key="random" startContent={<ArrowPathIcon className={iconClasses} />}>
                     <Link href={`/anime/random`} className='w-full h-full block '>Random Anime</Link>
-                </DropdownItem>
-                <DropdownItem disabled key="manga" startContent={<BookOpenIcon className={iconClasses} />}>
-                    <Link disabled href={`#`} className='w-full h-full block '>Manga (Unavailable)</Link>
                 </DropdownItem>
                 <DropdownItem key="settings" startContent={<SettingsIcon className={iconClasses} />}>
                     <Link href={`/settings`} className='w-full h-full block '>Settings</Link>

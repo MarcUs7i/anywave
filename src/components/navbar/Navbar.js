@@ -125,7 +125,7 @@ function Navbarcomponent({ home = false }) {
                 <div className={styles.logoContainer}>
                     <Link href="/" className={styles.logoLink}>
                         {/* ANIPLAY */}
-                        <Image src='https://anywave.marcus7i.net/logo.svg' width={50} height={50} className="w-32 h-20 "/>
+                        <p class="Anywave self-center !text-4xl tracking-wider font-medium whitespace-nowrap dark:text-white">Anywave</p>
                     </Link>
                 </div>
                 <div className={styles.navItemsContainer}>
@@ -150,7 +150,9 @@ function Navbarcomponent({ home = false }) {
     <option value="/anime/catalog">Explore</option>
     <option value="/anime/catalog?sortby=TRENDING_DESC">Trending</option>
     <option value="/anime/catalog?format=MOVIE">Movies</option>
+    {/* Schedule Website is down
     <option value="/schedule">Schedule</option>
+    */}
     <option value="/anime/random">Random Anime</option>
   </select>
 </div>
@@ -342,14 +344,13 @@ function Navbarcomponent({ home = false }) {
                 <DropdownItem key="chat" startContent={<ChatBubbleBottomCenterIcon className={iconClasses} />}>
                     <Link href={`https://discord.gg/s7ZUHYDmbD`} className='w-full h-full block '>Community/Discord</Link>
                 </DropdownItem>
+                {/* Schedule Website is down
                 <DropdownItem key="schedule" startContent={<ClockIcon className={iconClasses} />}>
                     <Link href={`/schedule`} className='w-full h-full block '>Schedule</Link>
                 </DropdownItem>
+                */}
                 <DropdownItem key="random" startContent={<ArrowPathIcon className={iconClasses} />}>
                     <Link href={`/anime/random`} className='w-full h-full block '>Random Anime</Link>
-                </DropdownItem>
-                <DropdownItem disabled key="manga" startContent={<BookOpenIcon className={iconClasses} />}>
-                    <Link disabled href={`#`} className='w-full h-full block '>Manga (Unavailable)</Link>
                 </DropdownItem>
                             <DropdownItem key="help_and_feedback" onPress={onOpenModalOne} startContent={<FeedbackIcon className={iconClasses} />}>Help & Feedback</DropdownItem>
                             <DropdownItem key="settings" startContent={<SettingsIcon className={iconClasses} />}>
@@ -376,9 +377,6 @@ function Navbarcomponent({ home = false }) {
                 </DropdownItem>
                 <DropdownItem key="random" startContent={<ArrowPathIcon className={iconClasses} />}>
                     <Link href={`/anime/random`} className='w-full h-full block '>Random Anime</Link>
-                </DropdownItem>
-                <DropdownItem disabled key="manga" startContent={<BookOpenIcon className={iconClasses} />}>
-                    <Link disabled href={`#`} className='w-full h-full block '>Manga (Unavailable)</Link>
                 </DropdownItem>
                             </DropdownItem>
                             <DropdownItem key="notloghelp_and_feedback" onPress={onOpenModalOne} startContent={<FeedbackIcon className={iconClasses} />}>Help & Feedback</DropdownItem>

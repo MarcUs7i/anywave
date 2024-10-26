@@ -46,9 +46,8 @@ const releaseLogs = [
     //     ],
     // },
     {
-        version: "Readying for REVAMP - v.1.9",
+        version: "V.1.9",
         changes: [
-            "Join the new Waitlist for our BIGGEST update EVER.",
             "Join our new discord: https://discord.gg/s7ZUHYDmbDe",
             "Report any bugs and request features in Feedback or Discord. It's FREE!",
             ],
