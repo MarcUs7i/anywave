@@ -41,7 +41,7 @@ function AuthPage() {
                         Enjoy Anime, Novels & Manga for FREE without ads. Sync with your favorite account providers like AniList                    </p>
                 </div>
                 <a href="/" className="inline-block w-full mt-3 py-2 px-3 text-center text-indigo-600 font-medium bg-white duration-150 hover:bg-gray-100 active:bg-gray-200 rounded-lg sm:w-auto sm:mt-0 sm:text-sm">
-                    Use 1Anime now!
+                    Use Anywave now!
                 </a>
             </div>
         </div>
@@ -49,7 +49,7 @@ function AuthPage() {
             <div className='max-w-[94%] md:max-w-[95%] lg:max-w-[85%] xl:max-w-[80%] mx-auto min-h-[58vh] flex flex-col gap-6 mt-5'>
                                           <div className='mx-3 bg-[#1a1a1f] text-xs font-bold px-5 py-3 rounded-lg flex items-center w-[100%] justify-between'>
                             <div className='mr-4 w-full'>
-                                <p className='text-[18px] md:text-[21px] font-medium'>Welcome to 1Anime!</p>
+                                <p className='text-[18px] md:text-[21px] font-medium'>Welcome to Anywave!</p>
                                 <p className='text-[11px] md:text-[13px] text-[#bfc6d0] lg:max-w-[55%] line-clamp-3'> You're signed in as {data?.user?.name}</p>
                                 <button className="bg-white text-black font-medium py-2 px-3 rounded-lg"
             onClick={() => {
@@ -73,7 +73,7 @@ function AuthPage() {
         <div className='max-w-[94%] md:max-w-[95%] lg:max-w-[85%] xl:max-w-[80%] mx-auto min-h-[58vh] flex flex-col gap-6 mt-5'>
                                           <div className='mx-3 bg-[#1a1a1f] text-xs font-bold px-5 py-3 rounded-lg flex items-center w-[100%] justify-between'>
                             <div className='mr-4 w-full'>
-                                <p className='text-[18px] md:text-[21px] font-medium'>Welcome to 1Anime!</p>
+                                <p className='text-[18px] md:text-[21px] font-medium'>Welcome to Anywave!</p>
                                 <p className='text-[11px] md:text-[13px] text-[#bfc6d0] lg:max-w-[55%] line-clamp-3'> Please choose a way to login/signup</p>
                                 <button className="bg-white text-black font-medium py-2 px-3 rounded-lg"
             onClick={() => {

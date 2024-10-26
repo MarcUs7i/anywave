@@ -336,8 +336,6 @@ function Navbarcomponent({ home = false }) {
                             <DropdownItem key="profile" startContent={<ProfileIcon className={iconClasses} />}>
                             <Link href={`/user/profile`} className='w-full h-full block '>Profile</Link>
                                 </DropdownItem>
-                                <DropdownItem key="donate" startContent={<BanknotesIcon className={iconClasses} />}>
-                </DropdownItem>
                 <DropdownItem key="AIChat" startContent={<ChatBubbleOvalLeftEllipsisIcon className={iconClasses} />}>
                     <Link href={`https://ollama.marcus7i.net`} className='w-full h-full block '>AI Chats</Link>
                 </DropdownItem>
